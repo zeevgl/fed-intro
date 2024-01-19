@@ -1,0 +1,11 @@
+{
+  "userName": "moshe",
+  "password": "1234",
+  "email": "test@test.com",
+  "firstName": "moshe",
+  "lastName": "cohen",
+  "roles": [
+    "admin",
+    "user"
+  ]
+}

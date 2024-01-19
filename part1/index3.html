@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p.yellow-text {
+            background-color: yellow;
+            color: red;
+            font-family: "Comic Sans MS";
+            font-size: 40px;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+    <script>
+        let clickCount = 0;
+
+        function myFunction() {
+            clickCount++;
+            document.getElementById("clickCounter").innerHTML = clickCount.toString();
+        }
+    </script>
+
+</head>
+<body>
+Hello World!
+
+<p>My name is Zeev</p>
+
+this is <b>BOLD</b> text
+
+<br/>
+
+this is <span style="color:red">red</span> text
+
+<p class="yellow-text">some text</p>
+<button onclick="alert('Hello World!');">Click me</button>
+
+<br/>
+
+<button onclick="myFunction()">Click me2</button>
+<span id="clickCounter">0</span>
+
+</body>
+</html>
