@@ -4,6 +4,8 @@
   "email": "test@test.com",
   "firstName": "moshe",
   "lastName": "cohen",
+  "age": 18,
+  "isActive": true,
   "roles": [
     "admin",
     "user"
