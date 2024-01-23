@@ -17,6 +17,11 @@
     <script>
         let clickCount = 0;
         document.addEventListener("DOMContentLoaded", function(event) {
+
+            document.getElementById("btnAlert").addEventListener("click", function() {
+                alert("Hello World!");
+            });
+
             document.getElementById("btnCounter").addEventListener("click", function() {
                 setCounter(++clickCount);
             });
@@ -43,7 +48,7 @@ this is <span style="color:red">red</span> text
 
 <p class="yellow-text">some text</p>
 
-<button onclick="alert('Hello World!');">Click me</button>
+<button id="btnAlert">Click me</button>
 
 <br/>
 
