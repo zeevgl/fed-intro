@@ -8,3 +8,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <App />
   </React.StrictMode>,
 )
+
+//TODO: create list of countries with hook and fetch:
+//https://restcountries.com/v3.1/all
+//https://restcountries.com/#endpoints-all
+//https://github.com/ShantanuSutar/REST-Countries-API/tree/main
